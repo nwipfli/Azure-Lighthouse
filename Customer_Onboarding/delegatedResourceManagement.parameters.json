@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": ""
+        },
+        "mspOfferDescription": {
+            "value": ""
+        },
+        "managedByTenantId": {
+            "value": ""
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "",
+                    "principalIdDisplayName": "Operational Team",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "principalId": "",
+                    "principalIdDisplayName": "Assessment Team",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                },
+                {
+                    "principalId": "",
+                    "principalIdDisplayName": "VM Specialists",
+                    "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c"
+                },
+                {
+                    "principalId": "",
+                    "principalIdDisplayName": "Monitoring Team",
+                    "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
+                }
+            ]
+        }
+    }
+}
